@@ -17,5 +17,7 @@ int main()
     printf("Uppercase");
     else if(islower(a))
     printf("Lowercase");
+    else
+    printf("not valid");
     return 0;
 }
