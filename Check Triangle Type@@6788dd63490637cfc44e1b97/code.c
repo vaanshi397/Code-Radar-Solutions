@@ -15,7 +15,7 @@ int main()
     scanf("%d %d %d",&a,&b,&c);
     if(a==b && b==c && a==c)
     printf("Equilateral");
-    else if((a==b && a==c) || (b==a && b==c) || (c==a && c==b))
+    else if(a==b || b==c || a==c)
     printf("Isosceles");
     else
     printf("Scalene");
