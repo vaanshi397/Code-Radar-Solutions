@@ -13,11 +13,11 @@ int main()
 {
     char a;
     scanf("%c",&a);
-    if(isupper(a))
+    if(a>='A' && a<='Z')
     printf("Uppercase");
-    else if(islower(a))
+    else if (a>='a' && a<='z')
     printf("Lowercase");
     else
-    printf("not valid");
+    printf("Not Valid");
     return 0;
 }
