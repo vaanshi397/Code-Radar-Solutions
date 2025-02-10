@@ -18,7 +18,7 @@ int main()
     else if( (cha>='A' && cha<='Z') || (cha>='a' && cha<='z'))
     printf("Consonant");
     else if(cha>='0' && cha<='9')
-    printf("digit");
+    printf("Digit");
     else
     printf("Special Character");
     return 0;
