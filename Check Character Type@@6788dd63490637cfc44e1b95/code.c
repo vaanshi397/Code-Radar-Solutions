@@ -13,7 +13,7 @@ int main()
 {
     char cha;
     scanf("%c",&cha);
-    if(cha=='a' || cha=='e' || cha=='i' || cha=='o' || cha=='u' || cha=='A' || cha=='E' || cha=='I' || cha=='O' cha=='U')
+    if(cha=='a' || cha=='e' || cha=='i' || cha=='o' || cha=='u' || cha=='A' || cha=='E' || cha=='I' || cha=='O'|| cha=='U')
     printf("Vowel");
     else if( (cha>='A' && cha<='Z') || (cha>='a' && cha<='z'))
     printf("Consonant");
