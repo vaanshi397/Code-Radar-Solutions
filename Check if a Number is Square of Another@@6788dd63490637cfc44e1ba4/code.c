@@ -14,7 +14,9 @@ int main()
 {
     int a,b;
     scanf("%d %d",&a,&b);
-    if(a==pow(b,2))
+    int c;
+    c=pow(b,2);
+    if(a==c)
     printf("Yes");
     else
     printf("No");
