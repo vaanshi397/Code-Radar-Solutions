@@ -30,7 +30,7 @@ int main()
         case 12:
         printf("30");
         default:
-        printf("Invalid")
+        printf("Invalid");
     }
     return 0;
 }
