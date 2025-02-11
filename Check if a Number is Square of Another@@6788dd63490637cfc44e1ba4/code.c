@@ -14,7 +14,7 @@ int main()
 {
     int a,b;
     scanf("%d %d",&a,&b);
-    if(a==bpow(2))
+    if(a==b pow(2))
     printf("Yes");
     else
     printf("No");
