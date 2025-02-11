@@ -29,6 +29,8 @@ int main()
         printf("31");
         case 12:
         printf("30");
+        default:
+        printf("Invalid")
     }
     return 0;
 }
