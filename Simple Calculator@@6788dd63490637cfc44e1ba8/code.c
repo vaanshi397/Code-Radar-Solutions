@@ -15,5 +15,5 @@ int main() {
     } else {
         printf("Error");
     }
-    return o;
+    return 0;
 }
