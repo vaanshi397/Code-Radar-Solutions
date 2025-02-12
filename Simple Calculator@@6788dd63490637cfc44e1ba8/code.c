@@ -7,16 +7,16 @@ int main()
     scanf("%f %f %c",&a,&b,&c);
     switch(c){
         case '+':
-        printf("%f",a+b);
+        printf("%.0f",a+b);
         break;
         case '-':
-        printf("%f",a-b);
+        printf("%.0f",a-b);
         break;
         case '*':
-        printf("%f",a*b);
+        printf("%.0f",a*b);
         break;
         case '/':
-        printf("%f",a/b);
+        printf("%.0f",a/b);
         break;
         default:
         printf("Error");
