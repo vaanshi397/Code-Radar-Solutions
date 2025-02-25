@@ -2,13 +2,16 @@
 #include <stdio.h>
 int main()
 {
-    int rows;
+    int i,j,k=0,rows;
     scanf("%d",&rows);
-    for (int i=1 ; i<=rows ; i++){
-        for (int j=1 ; j<=rows -i ; j++){
+    for(i=1;i<=rows;i++)
+    {
+        for(j=1;j<=rows-i;j++)
+        {
             printf(" ");
         }
-        for (int j=1 ; j<=i ; j++){
+        for(k=1;k<=(2*i-1);k++)
+        {
             printf("*");
         }
         printf("\n");
