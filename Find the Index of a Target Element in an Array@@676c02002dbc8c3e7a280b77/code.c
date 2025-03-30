@@ -13,9 +13,9 @@ int main(){
             printf("%d",i);
             break;
         }
-        else if(arr[i]!=T){
-            printf("-1");
-        }
+    }
+    else{
+        printf("-1");
     }
     return 0;
 }
