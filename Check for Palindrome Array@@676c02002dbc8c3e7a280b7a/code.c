@@ -1,5 +1,17 @@
 #include <stdio.h>
-
+int palindrome(int arr[],int N){
+    int i=0;
+    int j=N-1;
+    while(i<j){
+        if (arr[i]!=arr[j]){
+            printf("NO");
+            return;
+        }
+        i++;
+        j--;
+    }
+    printf("YES");
+}
 int main(){
     int N;
     scanf("%d",&N);
@@ -7,15 +19,6 @@ int main(){
     for(int i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
-    for(int i=0;i<N;i++){
-        for(int j=N-1;j>=0;j--){
-            if (arr[i]=arr[j]){
-                printf("YES");
-            }
-            else{
-                printf("NO");
-            }
-        }
-    }
+    palindrome(arr,N);
     return 0;
 }
