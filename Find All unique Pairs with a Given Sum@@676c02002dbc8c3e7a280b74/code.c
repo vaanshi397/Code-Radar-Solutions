@@ -9,9 +9,9 @@ int main(){
     int T;
     scanf("%d",&T);
     for(int i=0;i<N;i++){
-        for(int j=0;j<N;j++){
+        for(int j=i+1;j<N;j++){
             if(arr[i]+arr[j]==T){
-                printf("%d %d\n",i,j);
+                printf("%d %d\n",arr[i],arr[j]);
             }
         }
     }
