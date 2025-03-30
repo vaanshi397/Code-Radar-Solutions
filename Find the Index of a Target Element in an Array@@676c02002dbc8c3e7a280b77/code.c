@@ -13,7 +13,7 @@ int main(){
             printf("%d",i);
             break;
         }
-        else{
+        else if(arr[i]!=T){
             printf("-1");
         }
     }
