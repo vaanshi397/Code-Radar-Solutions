@@ -1,10 +1,8 @@
-// Your code here...
 #include <stdio.h>
-int main()
-{
-    int N,i=1;
+int main(){
+    int N;
     scanf("%d",&N);
-    while(i<=N){
+    for(int i=1;i<=N;i++){
         printf("%d",i);
     }
     return 0;
