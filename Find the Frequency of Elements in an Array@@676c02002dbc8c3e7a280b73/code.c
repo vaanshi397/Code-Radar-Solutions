@@ -20,8 +20,8 @@ int main() {
         freq[arr[i]];
     }
     for(int i=0;i<=max;i++){
-        if(freeq[i]>0){
-            printf("%d %d",i,freq[i]);
+        if(freq[i]>0){
+            printf("%d %d\n",i,freq[i]);
         }
     }
     return 0;
