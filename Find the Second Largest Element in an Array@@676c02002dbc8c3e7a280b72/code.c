@@ -18,8 +18,6 @@ int main(){
             smax=arr[i];
         }
     }
-    for(int i=0;i<N;i++){
-        printf("%d",smax);
-    }
+    printf("%d",smax);
     return 0;
 }
